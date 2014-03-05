@@ -1,9 +1,9 @@
 {
-  "name" : "bloody-immediate",
-  "author" : "bloodyowl",
-  "version" : "0.1.0",
-  "scripts" : {
-    "test" : "tape test/*.js"
+  "name": "bloody-immediate",
+  "author": "bloodyowl",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "tape test/*.js"
   },
   "devDependencies": {
     "tape": "~2.3.2"
@@ -11,13 +11,57 @@
   "testling": {
     "files": "test/*.js",
     "browsers": {
-      "ie": [ 6, 7, 8, 9 ],
-      "firefox": [ 22, 23, 24, 25 ],
-      "chrome": [ 28, 29, 30, 31 ],
-      "safari": [ 4, 5.1, 6 ],
-      "opera": [ 10, 11, 12 ],
-      "iphone" : [ 6 ],
-      "ipad" : [ 6 ]
+      "ie": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "firefox": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "chrome": [
+        28,
+        29,
+        30,
+        31
+      ],
+      "safari": [
+        4,
+        5.1,
+        6
+      ],
+      "opera": [
+        10,
+        11,
+        12
+      ],
+      "iphone": [
+        6
+      ],
+      "ipad": [
+        6
+      ]
     }
-  }
+  },
+  "description": "[![browser support](https://ci.testling.com/bloodyowl/immediate.png)](https://ci.testling.com/bloodyowl/immediate)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bloodyowl/immediate.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/immediate/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/immediate"
 }
